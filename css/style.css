@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 800px;
+    background-image: url(img/slider.jpg)
+}
+
+.header .logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    float: right;
+    margin-top: 53px;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+.navigation {
+    list-style-type: none; 
+	margin-top: 60px; 
+	margin-left: 600px;
+	float: left; 
+	width: 165px; 
+	height: 60px; 
+}
+.navigation li {
+    float: left; 
+    padding-left: 2px;
+    margin-left: 2px;
+}
+.navigation li .navi{
+    background-color: gainsboro; 
+	width: 30px; 
+	height: 30px; 
+	margin-top: 10px; 
+	margin-left: 15px; 
+    padding-left: 3px;
+	display: block; 
+	border-radius: 50%; 
+}
+.navigation li .navi1{
+    background-color: gainsboro; 
+	width: 35px; 
+	height: 35px; 
+	margin-top: 8px; 
+	margin-left: 15px;
+    
+	display: block; 
+	border-radius: 50%; 
+}
+.navigation li .navi:hover{
+    background-color: rgba(44, 22, 22, 1);
+	width: 30px; 
+	height: 30px; 
+	margin-top: 10px; 
+	margin-left: 15px; 
+	display: block; 
+	border-radius: 50%; 
+}
+
+.navigation li .navi1:hover{
+    background-color: rgba(44, 22, 22, 1);
+	width: 35px; 
+	height: 35px; 
+	margin-top: 8px; 
+	margin-left: 15px; 
+	display: block; 
+	border-radius: 50%; 
+}
+.navigation2 {
+    list-style-type: none; 
+	margin-top: 140px; 
+	margin-left: 600px;
+	float: left; 
+	width: 165px; 
+	height: 60px; 
+}
+.navigation2 li {
+    float: left; 
+    padding-left: 2px;
+    margin-left: 2px;
+}
+.navigation2 li .navi2{
+    background-color: gainsboro; 
+	width: 30px; 
+	height: 30px; 
+	margin-top: 10px; 
+	margin-left: 15px; 
+    padding-left: 3px;
+	display: block; 
+	border-radius: 50%; 
+}
+.navigation2 li .navi3{
+    background-color: gainsboro; 
+	width: 35px; 
+	height: 35px; 
+	margin-top: 8px; 
+	margin-left: 15px;
+    
+	display: block; 
+	border-radius: 50%; 
+}
+.navigation2 li .navi2:hover{
+    background-color: rgba(44, 22, 22, 1);
+	width: 30px; 
+	height: 30px; 
+	margin-top: 10px; 
+	margin-left: 15px; 
+	display: block; 
+	border-radius: 50%; 
+}
+
+.navigation2 li .navi3:hover{
+    background-color: rgba(44, 22, 22, 1);
+	width: 35px; 
+	height: 35px; 
+	margin-top: 8px; 
+	margin-left: 15px; 
+	display: block; 
+	border-radius: 50%; 
+}
+.menu li a {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+}
+
+.menu li a:hover {
+    color: #212121;
+    border-bottom: 1px solid black;
+}
+
+.text {
+    width: 458px;
+    margin-top: 250px;
+    margin-left: 98px;
+}
+
+.text h3 {
+    letter-spacing: 2px;
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+
+.text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.text a {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.featured {
+    margin-left: 107px;
+    margin-top: 120px;
+    padding-bottom: 50px
+}
+
+.featured li {
+    float: left;
+    list-style-type: none;
+}
+
+.explore {
+    margin-right: 118px;
+    display: block;
+    float: right;
+    background: #ffffff;
+    width: 200px;
+    height: 45px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.explore:hover, .label a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+.menu2 li a {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    display: block;
+    
+    padding: 0 20px;
+}
+
+.menu2 li a:hover {
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+.text a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+.search {
+    float: right;
+    margin-right: 167px;
+    margin-top: 63px;
+}
+
+.product {
+    margin-top: 120px;
+}
+
+.product2 {
+    margin-top: 10px;
+}
+
+.product2 ul {
+    margin-top: 50px;
+    margin-left: 98px;
+}
+
+.product2 li {
+    float: left;
+    display: block;
+    list-style-type: none;
+    padding: 15px;
+}
+
+img.folov:hover {
+    outline: 1px solid black;
+    content: url(img/secimg.png);
+}
+.pmenu li a:hover {
+    outline: 1px solid black;
+    content: url(img/secimg1.png) ;
+}
+.promo {}
+
+.promo1 {
+    float: left;
+    margin-top: 120px;
+    height: 683px;
+    width: 683px;
+    background-image: url(img/promo-img1.jpg);
+}
+
+.promo2 {
+    float: right;
+    margin-top: 120px;
+    height: 683px;
+    width: 683px;
+    background-image: url(img/promo-img.jpg);
+}
+
+.text1,
+.text2 {
+    width: 380px;
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.text1 h3,
+.text2 h3, .chair h3 {
+    letter-spacing: 2px;
+    color: #1e88e5;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.text1 h1,
+.text2 h1, .chair h1 {
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+}
+
+.text1 p,
+.text2 p, .chair p {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleY(1.0022);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.text1 a,
+.text2 a, .chair a {
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 34px;
+}
+
+.text1 a:hover,
+.text2 a:hover,
+.chair a:hover{
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+
+.label p {
+    float: left;
+    margin-top: 119px;
+    margin-left: 98px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+.label a {
+    float: right;
+    margin-right: 118px;
+    margin-top: 137px;
+    background: #ffffff;
+    width: 200px;
+    height: 45px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+}
+.pmenu li{
+    float: left;
+    list-style-type: none;
+    padding: 30px 25px;
+}
+.pmenu {
+    float: left;
+    margin-top: 59px;
+    margin-left: 72px;
+}
+.hotdeal {
+    float: left;
+    width: 1366px;
+        height: 800px;
+    background-image: url(img/slider1.jpg)
+}
+
+.hdtext {
+    width: 600px;
+    margin-top: 228px;
+    margin-left: 51px;
+}
+.hdtext h3{
+    letter-spacing: 2px;
+    color:  #e53935;
+font-size: 18px;/* Приближение из-за подстановки шрифтов */
+font-weight: 800;
+line-height: 48px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+    margin-top:287px;
+    margin-bottom: 22px;
+}
+.hdtext h1 {
+    text-transform: uppercase;
+    color:  #212121;
+font-size: 62px;/* Приближение из-за подстановки шрифтов */
+font-weight: 200;
+line-height: 72px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+    margin-bottom: 34px;
+}
+
+.hdtext p {
+    color:  #6c6c6c;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+    margin-bottom: 32px;
+}
+
+.hdtext a{
+        display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 34px;
+}
+.hdtext a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
+.container1 {
+    float: left;
+    margin-top: 120px;
+    
+}
+.chair {
+    float:left;
+    height: 570px;
+    width:570px;
+    background-image: url(img/product-1-lg.png);
+}
+
+.chair2{
+    float:left;
+    
+}
+.chairs {
+    list-style-type: none;
+    
+}
+.chairs li{  
+    display: inline;
+  margin-left: 30px;
+}
+
+.chair3{
+    float:left;
+    margin-top: 25px;
+}
+.chairs2 {
+    list-style-type: none;
+    
+}
+.chairs2 li{  
+    display: inline;
+  margin-left: 30px;
+
+}
+.chair h3 {
+    margin-top: 186px;
+}
+.chair h1, .chair p, .chair a, .chair h3 {
+    margin-left: 31px;
+}
+
+.chair p {
+    width:332px;
+}
+.theend {
+    float:left;
+    margin-top: 120px;
+    width: 1366px;
+        height: 516px;
+    background-image: url(img/back-img.png)
+}
+.tetext p {
+    color:  #212121;
+font-size: 62px;/* Приближение из-за подстановки шрифтов */
+font-weight: 100;
+line-height: 72px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+.tetext h3 {
+    color:  #6c6c6c;
+font-size: 18px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 48px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+
+.tetext a{
+        display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    text-align: center;
+    line-height: 45px;
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 34px;
+}
+.tetext a:hover {
+    background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
+}
